@@ -2,7 +2,7 @@ import os, re, requests, feedparser
 
 TOKEN   = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
-DESCUENTO_MINIMO = 20  # cambia este número si quieres más o menos filtro
+DESCUENTO_MINIMO = 10  # cambia este número si quieres más o menos filtro
 ARCHIVO = "vistos.txt"
 
 def enviar(texto):
